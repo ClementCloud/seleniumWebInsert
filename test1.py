@@ -29,7 +29,7 @@ def login():
 
 #Open website
 browser = webdriver.Chrome()
-browser.get('https://att.md.virtualclarity.com/#/categoryManagement')
+browser.get('https://{loogin-url-address}.com/#/categoryManagement')
 browser.maximize_window()
 browser.implicitly_wait(10)
 
